@@ -1,3 +1,9 @@
+StackOverflow Appwrite
+
+A Stack Overflow-inspired question-and-answer platform built using Next.js, Appwrite, Zustand, and Magic UI.
+
+The goal of this project is to learn and implement modern full-stack web development concepts by building a platform where developers can ask questions, share knowledge, and help each other solve programming problems.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
