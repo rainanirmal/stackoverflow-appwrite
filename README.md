@@ -1,42 +1,84 @@
-StackOverflow Appwrite
+# StackOverflow Appwrite
 
 A Stack Overflow-inspired question-and-answer platform built using Next.js, Appwrite, Zustand, and Magic UI.
 
 The goal of this project is to learn and implement modern full-stack web development concepts by building a platform where developers can ask questions, share knowledge, and help each other solve programming problems.
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 🚀 Tech Stack
 
-## Getting Started
+- **Next.js** — React framework for building the application.
+- **Appwrite** — Backend services for authentication, database, and file storage.
+- **Zustand** — Lightweight state management.
+- **Magic UI** — Animated UI components and visual effects.
+- **Tailwind CSS** — Utility-first styling.
+- **TypeScript** — Type-safe development.
 
-First, run the development server:
+## ✨ Planned Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [ ] User registration and login
+- [ ] User profiles
+- [ ] Ask, edit, and delete questions
+- [ ] Answer questions
+- [ ] Upvote and downvote questions and answers
+- [ ] Search questions by keywords
+- [ ] Filter questions using tags
+- [ ] Bookmark questions
+- [ ] Responsive UI
+- [ ] Animated components using Magic UI
+- [ ] State management using Zustand
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📚 Learning Objectives
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Understand Next.js App Router and server/client components.
+- Implement authentication and database operations using Appwrite.
+- Manage client-side state using Zustand.
+- Build attractive, animated interfaces using Magic UI.
+- Practice CRUD operations, form validation, and reusable components.
+- Understand how frontend and backend services work together.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Getting Started
 
-## Learn More
+### Prerequisites
 
-To learn more about Next.js, take a look at the following resources:
+- Node.js
+- npm
+- An Appwrite project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone the repository:
 
-## Deploy on Vercel
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/stackoverflow-appwrite.git
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Navigate to the project directory:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   cd stackoverflow-appwrite
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Configure your environment variables in `.env.local` according to your Appwrite setup.
+
+5. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+6. Open `http://localhost:3000` in your browser.
+
+## 📌 Project Status
+
+🚧 In development — features will be added incrementally as I explore the technologies and improve the application.
+
+## 🎯 Purpose
+
+This project is part of my hands-on learning journey in modern full-stack web development.
+
