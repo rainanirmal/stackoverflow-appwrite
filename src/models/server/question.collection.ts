@@ -30,5 +30,6 @@ export default async function createQuestionCollection() {
 
     await Promise.all([
         databases.createIndex(db, questionsCollection, "title", DatabasesIndexType.Fulltext, ["title"], [OrderBy.Asc]),
+        databases.createIndex(db, questionsCollection, "content", DatabasesIndexType.Fulltext, ["content"], [OrderBy.Asc]),
     ])
 }
